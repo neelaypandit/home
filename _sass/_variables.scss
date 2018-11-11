@@ -3,25 +3,24 @@
 /*--------------
   Font
   -------------- */
-$base-font: 'Roboto', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
 $code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 $code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 
 $base-font-size: 18px;
-$base-font-size-sm: 12px;
+$base-font-size-sm: 14px;
 
-$mobile-font-size: 14px;
+$mobile-font-size: 16px;
 
 
 /*--------------
   Color
   -------------- */
 $base-color: $oc-gray-8;
-$base-color-top: $oc-gray-7;
-$base-lighten-color: $oc-blue-6;
+$base-lighten-color: $oc-gray-6;
 
 $background-color: $oc-white;
-$background-over-color: $oc-blue-1;
+$background-over-color: $oc-gray-1;
 
 $text-color: $oc-gray-8;
 $link-color: $oc-blue-8;
