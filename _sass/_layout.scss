@@ -29,7 +29,7 @@ body {
   .left {
     a {
       color: #666;
-      border-bottom:1px;
+      border-bottom:1px dotted;
       text-decoration:none;
     }
     a:hover {
@@ -172,7 +172,7 @@ input#menu-toggle {
     margin-bottom: 40px;
   }
   nav a {
-    font-weight:200;
+    font-weight:400;
   }
 }
 
@@ -219,12 +219,12 @@ p.readmore {
 }
 
 .article-content a {
-  border-bottom:1px dotted orange;
+  border-bottom:1px dotted red;
   text-decoration:none;
 }
 .article-content a:hover {
   color:red;
-  border-bottom:1px dotted orange;
+  border-bottom:1px dotted red;
 }
 
 .article-footer {

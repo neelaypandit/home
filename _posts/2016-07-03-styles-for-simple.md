@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Styles at a glance
-category: Random 
-description: Test 
+category: jekyll 
+description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
 ---
 
 Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
@@ -10,14 +10,6 @@ Simple is a beautiful but functional jekyll theme. The font-type setting looks r
 First of all, let's have a glance at the basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
 
 <!--description-->
-Some Math
-
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-(E=mc^2)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
-
-
-
 
 ### Headers:
 
