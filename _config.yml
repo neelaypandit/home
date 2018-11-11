@@ -16,7 +16,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "neelaypandit"
 
 # URL
 url:                "http://neelaypandit.com" # the base hostname & protocol for your site
@@ -25,7 +25,7 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           America/Los_Angeles
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
