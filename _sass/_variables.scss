@@ -3,7 +3,7 @@
 /*--------------
   Font
   -------------- */
-$base-font: 'Roboto', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$base-font: 'Roboto-Light', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
 $code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 $code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 
@@ -17,6 +17,7 @@ $mobile-font-size: 14px;
   Color
   -------------- */
 $base-color: $oc-gray-8;
+$base-color-top: $oc-gray-7;
 $base-lighten-color: $oc-blue-6;
 
 $background-color: $oc-white;
