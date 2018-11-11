@@ -39,11 +39,11 @@ body {
     margin: 0.3em 0;
     font-size: 2.25em;
     line-height: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
 
     a {
       color: $base-color-top;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -78,7 +78,7 @@ body {
   text-align: left;
   margin-bottom: .75rem;
   font-size: .75rem;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 
   a {
@@ -101,7 +101,7 @@ body {
     margin-bottom: 2rem;
     font-size: 2.25em;
     line-height: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 
@@ -116,7 +116,7 @@ body {
     margin-bottom: 0.3rem;
     font-size: 2.25em;
     line-height: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   &-date {
@@ -204,7 +204,7 @@ body {
     &-title {
       margin-bottom: .3rem;
       font-size : 1.8rem;
-      font-weight: 600;
+      font-weight: 400;
     }
 
     &-date {
@@ -302,7 +302,7 @@ body {
 
   &-title {
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: lowercase;
     padding: 1rem 0;
   }
