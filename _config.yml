@@ -1,5 +1,5 @@
 # Site settings
-title: Daktilo
+title: Neelay Pandit
 description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -25,7 +25,9 @@ exclude: ["README.md", "README.html"]
 
 # Build settings
 highlighter: null
-markdown: kramdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
