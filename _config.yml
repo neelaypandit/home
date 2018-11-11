@@ -5,8 +5,9 @@ description: >
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://neelaypandit.com" # the base hostname & protocol for your site
+url:                "http://neelaypandit.com" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+baseurl:            "" # the subpath of your site, e.g. /blog
 
 author:
   fullname: Neelay Pandit
@@ -25,3 +26,7 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-admin
