@@ -1,35 +1,12 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-<style>    
-    hr { 
-        margin-left: auto;
-        margin-right: auto;
-        border-style: solid;
-        border-width: 1px;
-    } 
-</style>
-  <header class="artilce_header">
-    <h1 class="artilce_title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="artilce_meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  <hr>
-  </header>
+{% include post/title.html %}
 
-  <div class="article-content" itemprop="articleBody">
-    {{ page.content }}
-  </div>
+<div class="content">
+    {{ content }}
+</div>
 
-<!--   <footer class="article-footer"> -->
+{% include post/about.html %}
 
-<!--   {% include share.html %} -->
-
-<!--   <hr/> -->
-
-<!--   {% include author.html %} -->
-
-<!--   </footer> -->
-
-<!--   {% include dq.html %} -->
-
-</article>
+{% include externals/disqus.html %}
