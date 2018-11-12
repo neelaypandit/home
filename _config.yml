@@ -1,12 +1,12 @@
 # Site settings
 title:       Neelay Pandit
-email:       your_email@example.com 
+email:       pandit.neel@gmail.com 
 baseurl:     ""
 url:         "http://neelaypandit.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
+ - archive.html
 
 # Google services
 google_verification:
