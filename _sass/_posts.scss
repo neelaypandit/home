@@ -16,19 +16,18 @@
 
 .post-link .post-title {
   margin-top: 0;
-  font-weight: 600;
+  font-weight: 500;
   color: #333;
 }
 
 .post-footer {
-  @extend .italic;
 
-  margin-top: .75rem;
+  margin-top: .55rem;
   text-align: center;
 }
 
 .post-footer .avatar {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   width: 100px;
   border-radius: 50%;
 }
