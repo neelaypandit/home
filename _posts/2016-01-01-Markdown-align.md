@@ -9,14 +9,6 @@ Sample text to demonstrate alignment and transformation classes.
 
 Easily realign text with alignment classes via HTML:
 
-```
-<p class="text-left">Left aligned text.</p>
-<p class="text-center">Center aligned text.</p>
-<p class="text-right">Right aligned text.</p>
-<p class="text-justify">Justified text.</p>
-<p class="text-nowrap">No wrap text.</p>
-```
-
 Or with Kramdown and [inline attribute lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists):
 
 ```markdown
@@ -68,16 +60,6 @@ This is a paragraph. It has a no wrap. Beef ribs pig tenderloin filet mignon. Sp
 ---
 
 Transform text with capitalization classes via HTML:
-
-```html
-<p class="text-lowercase">Lowercased text.</p>
-<p class="text-uppercase">Uppercased text.</p>
-<p class="text-capitalize">Capitalized text.</p>
-<p class="text-truncate">Truncated text.</p>
-<p class="small">Small text.</p>
-```
-
-Or with Kramdown:
 
 ```markdown
 Lowercased text
