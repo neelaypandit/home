@@ -1,6 +1,8 @@
 .site-header {
   padding-top: $space-1;
   padding-bottom: $space-2;
+  border-bottom: thin solid #aeaeae;
+
 }
 
 .site-header a {
@@ -8,12 +10,10 @@
   font-family: "Lato";
   font-size: $h3;
   font-weight: 400;
-  background-image: url('{{ site.baseurl }}/images/background.jpg');
+  background-image: none;
   &a:hover {
     color: #ffa500;
   }
-  border-bottom: thin solid #aeaeae;
-
 }
 
 .site-header .site-title {
