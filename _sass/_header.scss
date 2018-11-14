@@ -9,10 +9,13 @@
   font-weight: 300;
   background-image: none;
   &:hover {
-    background-color: transparent;
-    border-color: #a3eeee;
+    background-color: #a3eeee;
+    border-color: transparent;
     border-radius: 5px;
-}    
+  }
+  &:focus {
+    text-decoration: none;       
+  }    
 }
 
 .site-header .site-title {
