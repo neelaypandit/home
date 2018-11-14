@@ -22,10 +22,8 @@
       background-color: #a3eeee;
       border-color: transparent;
       border-radius: 5px;
+      text-decoration: underline; 
   } 
-  &:focus {
-    text-decoration: none;
-  }   
 }
 
 .post-footer {

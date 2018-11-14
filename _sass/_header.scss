@@ -8,15 +8,6 @@
   font-size: $h3;
   font-weight: 300;
   background-image: none;
-  &:hover {
-    background-color: #a3eeee;
-    border-color: transparent;
-    border-radius: 5px;
-    text-decoration: underline; 
-  }
-  &:focus {
-    text-decoration: none;       
-  }    
 }
 
 .site-header .site-title {
