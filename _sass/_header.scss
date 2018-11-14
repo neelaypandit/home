@@ -9,7 +9,8 @@
   color: #0061ee;
   color: #477dca;
   font-family: "Lato";
-  font-weight: 400;
+  font-size: $h3;  
+  font-weight: 300;
   background-image: none;
   &a:hover {
     color: #ffa500;
@@ -17,10 +18,7 @@
 }
 
 .site-header .site-title {
-  font-size: 1.5rem;
-  &a:hover {
-    color: #ffa500;
-  }
+  font-size: $h2;
 }
 
 .site-nav {
@@ -28,7 +26,6 @@
 }
 
 .site-header nav a {
-  font-size: $h3;
   color: #737373;
 }
 
