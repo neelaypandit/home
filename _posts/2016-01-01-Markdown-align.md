@@ -1,15 +1,10 @@
 ---
-title: "Markup: Text Alignment and Transformations"
-categories:
-  - Markup
-tags:
-  - alignment
-  - content
-  - css
-  - markup
-last_modified_at: 2017-03-09T12:17:03-05:00
----
+layout: post
+title:  Markup: Text Alignment and Transformations
+category: Test Posts
+description: Test Description
 
+---
 Sample text to demonstrate alignment and transformation classes.
 
 Easily realign text with alignment classes via HTML:
@@ -62,7 +57,7 @@ This is a paragraph. It is right aligned. It is a bit more conservative in it's 
 
 ## Justify Aligned
 
-This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it's place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.
+This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it's place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.
 {: .text-justify}
 
 ## No Wrap
