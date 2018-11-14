@@ -1,88 +1,76 @@
 ---
 layout: post
-title:  Markup: Text Alignment and Transformations
-category: Test Posts
-description: Test Description
-
----
-Sample text to demonstrate alignment and transformation classes.
-
-Easily realign text with alignment classes via HTML:
-
-Or with Kramdown and [inline attribute lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists):
-
-```markdown
-Left aligned text.
-{: .text-left}
-
-Center aligned text.
-{: .text-center}
-
-Right aligned text.
-{: .text-right}
-
-Justified text.
-{: .text-justify}
-
-No wrap text.
-{: .text-nowrap}
-```
-
-## Default
-
-This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.
-
-## Left Aligned
-
-This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it's views. It's favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.
-{: .text-left}
-
-## Center Aligned
-
-This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.
-{: .text-center}
-
-## Right Aligned
-
-This is a paragraph. It is right aligned. It is a bit more conservative in it's views. It's prefers to not be told what to do or how to do it. Right align totally owns a slew of guns and loves to head to the range for some practice. Which is cool and all. I mean, it's a pretty good shot from at least four or five football fields away. Dead on. So boss.
-{: .text-right}
-
-## Justify Aligned
-
-This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it's place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.
-{: .text-justify}
-
-## No Wrap
-
-This is a paragraph. It has a no wrap. Beef ribs pig tenderloin filet mignon. Spare ribs leberkas ribeye, burgdoggen fatback tenderloin biltong jowl flank sirloin hamburger bacon brisket. Shoulder bresaola drumstick capicola. Beef ribs prosciutto porchetta beef.
-{: .text-nowrap}
-
+title: "Syntax Highlighting Post"
+description: "Demo post displaying the various ways of highlighting code in Markdown."
+date: 2013-08-16
+tags: [sample post, code, highlighting]
+comments: true
+share: true
 ---
 
-Transform text with capitalization classes via HTML:
 
-```markdown
-Lowercased text
-{: .text-lowercase}
+Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
 
-Uppercased text
-{: .text-uppercase}
+[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
-Capitalized text
-{: .text-capitalize}
+### Highlighted Code Blocks
+
+To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
+
+
+```css
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
 ```
 
-Lowercased text
-{: .text-lowercase}
+```html
+{% raw %}<nav class="pagination" role="navigation">
+    {% if page.previous %}
+        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+    {% endif %}
+</nav><!-- /.pagination -->{% endraw %}
+```
 
-Uppercased text
-{: .text-uppercase}
+```ruby
+module Jekyll
+  class TagIndex < Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
+```
 
-Capitalized text
-{: .text-capitalize}
 
-This is a truncated paragraph of text. Bacon ipsum dolor amet shoulder jowl tail andouille fatback tongue. Ham porchetta kielbasa pork pork chop, tenderloin hamburger meatball. Picanha porchetta swine, brisket salami pork belly burgdoggen. Cupim swine pastrami, chuck tri-tip pork belly jowl shankle alcatra brisket capicola ball tip prosciutto beef ribs doner. Tri-tip bacon ground round pork chop burgdoggen leberkas pork strip steak beef corned beef salami.
-{: .text-truncate}
+### Standard Code Block
 
-Small text
-{: .small}
+    {% raw %}<nav class="pagination" role="navigation">
+        {% if page.previous %}
+            <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+        {% endif %}
+        {% if page.next %}
+            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+        {% endif %}
+    </nav><!-- /.pagination -->{% endraw %}
+
+### GitHub Gist Embed
+
+An example of a Gist embed below.
+
+<script src="https://gist.github.com/mmistakes/43a355923921d22cd993.js"></script>
