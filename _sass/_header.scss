@@ -8,6 +8,11 @@
   font-size: $h3;
   font-weight: 300;
   background-image: none;
+  &:hover {
+    background-color: transparent;
+    border-color: #a3eeee;
+    border-radius: 5px;
+}    
 }
 
 .site-header .site-title {
