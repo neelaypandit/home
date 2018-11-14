@@ -18,6 +18,10 @@
   margin-top: 0;
   font-weight: 500;
   color: #333;
+  &:hover {
+      background-color: $background-over-color;
+      border-color: transparent;
+      border-radius: 10px;
 }
 
 .post-footer {
