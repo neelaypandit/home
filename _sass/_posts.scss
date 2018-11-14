@@ -16,10 +16,12 @@
 
 .post-link .post-title {
   margin-top: 0;
-  font-weight: 500;
-  color: #333;
+  font-weight: 450;
+  color: #303030;
+  font-size: $h2;
   &:hover {
-      text-decoration: underline; 
+      text-decoration: underline;
+      text-decoration-color: #464646;  
   } 
 }
 
