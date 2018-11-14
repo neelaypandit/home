@@ -16,6 +16,9 @@
 
 .site-header .site-title {
   font-size: $h2;
+  &a:hover {
+    color: #ffa500;
+  }
 }
 
 .site-nav {
