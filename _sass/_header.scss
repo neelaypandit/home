@@ -7,7 +7,7 @@
   color: #0061ee;
   font-family: "Lato";
   font-size: $h3;
-  font-weight: 300;
+  font-weight: 400;
   background-image: none;
   &a:hover {
     color: #ffa500;
@@ -34,7 +34,7 @@
 .site-header nav a:active {
   color: #444;
   opacity: 1;
-  border-bottom: 2px solid #444;
+  border-bottom: 1px solid #444;
 }
 
 .site-header a:hover {
