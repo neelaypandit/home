@@ -20,8 +20,8 @@
   color: #262626;
   font-size: $h2;
   &:hover {
-    border-bottom: 2px solid #477dca;
-  
+      text-decoration: underline;
+      text-decoration-color: #477dca;  
   } 
 }
 
