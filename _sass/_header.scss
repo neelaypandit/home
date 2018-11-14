@@ -11,9 +11,6 @@
   font-size: $h3;  
   font-weight: 300;
   background-image: none;
-  &a:hover {
-    color: #ffa500;
-  }
 }
 
 .site-header .site-title {
@@ -37,7 +34,7 @@
 }
 
 .site-header a:hover {
-  color: #444;
+  color: #000;
 }
 
 .site-nav a + a {
