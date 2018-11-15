@@ -15,10 +15,10 @@ title: Posts
       <a href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}  
         <span class="archive-list-post-title">
-          {{ post.title }}
+          <time>| {{ post.date | date_to_string }}</time>
         </span>
         <span class="archive-list-post-date">
-          <time>| {{ post.date | date_to_string }}</time>
+          {{ post.title }}        
         </span>
       </a>
     </div>
