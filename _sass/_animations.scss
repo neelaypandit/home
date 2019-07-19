@@ -6,8 +6,8 @@ Copyright (c) 2014 Daniel Eden
 */
 
 .animated {
-  -webkit-animation-duration: 1.25s;
-          animation-duration: 1.25s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -18,8 +18,8 @@ Copyright (c) 2014 Daniel Eden
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 1.25s;
-          animation-duration: 1.25s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 @-webkit-keyframes fadeInDown {
