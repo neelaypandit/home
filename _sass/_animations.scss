@@ -25,8 +25,8 @@ Copyright (c) 2014 Daniel Eden
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translateZ(-10px);
-            transform: translateZ(-10px);
+    -webkit-transform: translateZ(-50px);
+            transform: translateZ(-50px);
   }
 
   100% {
@@ -40,9 +40,9 @@ Copyright (c) 2014 Daniel Eden
   0% {
     opacity: 0;
 
-    -webkit-transform: translateZ(-10px) translate3d(0, 0, 0);
-        -ms-transform: translateZ(-10px) translate3d(0, 0, 0);
-            transform: translateZ(-10px) translate3d(0, 0, 0);
+    -webkit-transform: translateZ(-50px) translate3d(0, 0, 0);
+        -ms-transform: translateZ(-50px) translate3d(0, 0, 0);
+            transform: translateZ(-50px) translate3d(0, 0, 0);
   }
 
   100% {
