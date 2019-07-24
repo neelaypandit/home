@@ -6,7 +6,8 @@
 .posts .post {
   margin-bottom: 0.75em;
   border-bottom: thin solid #bebebe;
- font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .posts .post:last-child {
@@ -18,7 +19,7 @@
 .post-link .post-title {
   margin-top: 0;
   font-weight: 450;
-  font-family: "Source Sans Pro";
+  //font-family: "Source Sans Pro";
   //color: #262626;
   color: #454141;
   font-size: $h3;
